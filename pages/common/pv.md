@@ -25,4 +25,4 @@
 
 - Stop reading after reading specified amount of data, rate limit to 1K/s:
 
-`pv -L 1K -S {{maximum_file_size_to_be_read}}`
+`pv -L 1K -Ss {{maximum_file_size_to_be_read}}`
